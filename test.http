@@ -1,0 +1,13 @@
+
+###
+PUT http://127.0.0.1:5000/api/casas/1
+Content-Type: application/x-www-form-urlencoded
+
+data=2
+
+###
+GET http://127.0.0.1:5000/api/casas
+
+
+###
+GET http://127.0.0.1:5000/api/casas/10
